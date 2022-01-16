@@ -1,6 +1,37 @@
-body {
-  background-color: #393e46;
+:root {
+  --primary-color: #212429;
+  --secondary-color: #f8b500;
 }
+
+body {
+  background-color: #c1c0b9;
+}
+
+h1,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
+}
+
 h1 {
-  color: white;
+  font-size: 50px;
+}
+
+h3 {
+  line-height: 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 120px 30px;
+  background-color: var(--primary-color);
+}
+
+.contact-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
