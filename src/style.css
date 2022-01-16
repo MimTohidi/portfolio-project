@@ -1,28 +1,49 @@
 :root {
   --primary-color: #212429;
   --secondary-color: #f8b500;
+  --background-color: #c1c0b9;
   --content-font: "Poppins", sans-serif;
 }
 
 body {
-  background-color: #c1c0b9;
+  background-color: var(--background-color);
 }
 
 h1,
+h2,
 h3 {
   font-family: "Quicksand", sans-serif;
-  color: whitesmoke;
+  color: var(--background-color);
 }
 
 h1 {
   font-size: 50px;
 }
 
+h2 {
+  color: var(--primary-color);
+}
+
 h3 {
   line-height: 40px;
 }
 
-img {
+p {
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    text-align: center;
+  }
+  .project-description {
+    text-align: center;
+  }
+}
+
+.avatar {
   display: block;
   margin: 0 auto;
 }
@@ -35,4 +56,11 @@ img {
 .contact-btn:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.lunch-btn {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  padding: 6px 12px;
+  border: solid 1px var(--primary-color);
 }
