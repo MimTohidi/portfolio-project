@@ -17,7 +17,8 @@ h3 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 h2 {
@@ -70,4 +71,12 @@ p {
   background-color: var(--primary-color);
   padding: 6px 12px;
   transition: ease-in-out 0.5s;
+}
+
+.about-hero {
+  padding: 120px 30px;
+  text-align: center;
+}
+.about-heading {
+  color: var(--primary-color);
 }
