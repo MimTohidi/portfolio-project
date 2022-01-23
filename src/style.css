@@ -49,7 +49,8 @@ p {
 .dark-hero h1,
 .dark-hero h2,
 .dark-hero h3,
-.dark-hero p {
+.dark-hero p,
+.dark-hero .icon {
   color: var(--background-color);
 }
 
@@ -96,12 +97,14 @@ p {
   text-decoration: underline;
 }
 
-#coding-journey {
+#coding-journey,
+.secondary-contact-link,
+.secondary-contact-link:hover {
   color: var(--secondary-color);
 }
 
-.icon,
-.contact-link {
+.contact-link,
+icon {
   color: var(--primary-color);
   text-decoration: none;
 }
