@@ -110,3 +110,11 @@ p {
   color: var(--primary-color);
   text-decoration: underline;
 }
+nav .active {
+  color: var(--secondary-color) !important;
+}
+
+.navbar-brand {
+  color: var(--background-color) !important;
+  font-family: var(--heading-font);
+}
