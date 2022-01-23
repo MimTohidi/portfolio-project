@@ -81,7 +81,7 @@ p {
   transition: ease-in-out 0.5s;
 }
 
-.about-hero {
+.top-section {
   padding: 120px 30px;
   text-align: center;
 }
@@ -96,6 +96,6 @@ p {
   text-decoration: underline;
 }
 
-.dark-hero h2 {
+#coding-journey {
   color: var(--secondary-color);
 }
