@@ -99,3 +99,14 @@ p {
 #coding-journey {
   color: var(--secondary-color);
 }
+
+.icon,
+.contact-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
