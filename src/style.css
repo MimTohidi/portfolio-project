@@ -35,9 +35,9 @@ p {
 }
 
 .light-hero h1,
-h2,
-h3,
-p {
+.light-hero h2,
+.light-hero h3,
+.light-hero p {
   color: var(--primary-color);
 }
 
@@ -47,9 +47,9 @@ p {
 }
 
 .dark-hero h1,
-h2,
-h3,
-p {
+.dark-hero h2,
+.dark-hero h3,
+.dark-hero p {
   color: var(--background-color);
 }
 
